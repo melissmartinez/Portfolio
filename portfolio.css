@@ -1,0 +1,94 @@
+body {
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Header {
+    width: 960px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0;
+}
+#Header h1 {
+    font-family: "Comic Sans MS";
+    padding: 0 0 0 0;
+    display: inline-block;
+}
+#Header h3 {
+    float: right;
+    line-height: 40px;
+}
+#container {
+    background-image: linear-gradient(purple, black); 
+    width: 950px;
+    height: 800px;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+}
+#photo {
+    display: inline-block;
+}
+
+#photo img {
+    width: 400px;
+    border: rgb(161, 156, 156) 4px solid;
+  }
+#aboutMe {
+    background-image: linear-gradient(white, silver);
+    width: 480px;
+    height: 240px;
+    display: inline-block;
+    vertical-align: top;
+  }
+#aboutMe h4 {
+    background-image: linear-gradient(grey, silver);
+    height: 35px;
+    margin-top: 0;
+    padding: 0;
+  }
+p {
+      font-size: 14px;
+  }
+h4 {
+    color: white;
+    font-size: 100%;
+  }
+.column img {
+    width: 206px;
+}
+h5 {
+color: black;    
+background-image: linear-gradient(white, silver);
+}
+#bottom-section {
+    padding: 40px;
+  }
+#bottom-section .column {
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    width: 29%;
+}
+img.logo{
+  width: 28px;
+  height: auto;
+  padding: 10px 0 0 10px;
+}
+#footer {
+    width: 960px;
+    height: 80px;
+    background: white;
+    margin: 0 auto;
+    padding: 0 10px 10px 10px;
+    text-align: center;
+    vertical-align: middle;
+  }
+#footer img{
+    width: 20px;
+    vertical-align: bottom;
+    margin-right: 5px;
+  }
+#footer .email {
+    text-decoration: none;
+  }
+  
